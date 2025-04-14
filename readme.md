@@ -1,3 +1,6 @@
+
+![logoJUpdater](https://github.com/user-attachments/assets/34f1a89c-cc1c-40c8-bc9d-01703bbb576f)
+
 # 📦 JUpdater - Smart Android Update Checker Library
 
 `JUpdater` is a **lightweight, developer-friendly Android library** to detect new app updates and trigger an elegant in-app update prompt. Whether you're hosting your app update data on your own server or relying on third-party sources like APKPure, `JUpdater` gives you the flexibility to control everything.
