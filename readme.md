@@ -181,8 +181,8 @@ dependencies {
 ```kotlin
 val config = JUpdaterConfig("https://your-latest-apk-url.com")
 config.enableForceUpdate(5)
+config.isDebug = true  // Optional
 JUpdater.getInstance().init(applicationContext, config)
-JUpdater.getInstance().setDebugLog(true) // Optional
 ```
 
 ### Java
@@ -190,8 +190,8 @@ JUpdater.getInstance().setDebugLog(true) // Optional
 ```java
 JUpdaterConfig config = new JUpdaterConfig("https://your-latest-apk-url.com");
 config.enableForceUpdate(5);
+config.setDebug(true);  // Optional
 JUpdater.getInstance().init(getApplicationContext(), config);
-JUpdater.getInstance().setDebugLog(true); // Optional
 ```
 
 > ✅ Replace the URL with the **direct APK download link** of your latest version.
@@ -263,13 +263,13 @@ config.enableForceUpdate(3);
 While developing, it is strongly recommended to enable debug logs:
 
 ```kotlin
-JUpdater.getInstance().setDebugLog(true)
+config.setDebug(true)
 ```
 
 In production, either avoid calling this or set:
 
 ```kotlin
-JUpdater.getInstance().setDebugLog(false)
+config.setDebug(false)
 ```
 
 By default, logs are suppressed in production mode.
@@ -319,7 +319,7 @@ By default, logs are suppressed in production mode.
 
 | Version     | Description                                                |
 | ----------- | ---------------------------------------------------------- |
-| [v1.0.1](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/jupdater-V1.0.1-Release.aar) | Initial release with base features                              |
+| [v1.0.0](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/jupdater-V1.0.0-Release.aar) | Initial release with base features                              |
 <!-- | [v1.0.1](https://yourwebsite.com/downloads/jupdater-v1.0.1.aar) | Bug fixes, improved custom server handling                      | -->
 
 > 🆕 New versions will be updated here along with changelogs.
