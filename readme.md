@@ -101,7 +101,7 @@ Since this library is **not published on Maven or Gradle repositories**, follow 
 
 ### 1. Download AAR
 
-👉 [**Click here to download JUpdater.aar**](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/jupdater-V1.0.1-Release.aar)
+👉 [**Click here to download JUpdater.aar**](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/jupdater-V1.0.0-release.aar)
 
 ### 2. Create `libs` folder
 
@@ -319,7 +319,7 @@ By default, logs are suppressed in production mode.
 
 | Version     | Description                                                |
 | ----------- | ---------------------------------------------------------- |
-| [v1.0.0](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/jupdater-V1.0.0-Release.aar) | Initial release with base features                              |
+| [v1.0.0](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/jupdater-V1.0.0-release.aar) | Initial release with base features                              |
 <!-- | [v1.0.1](https://yourwebsite.com/downloads/jupdater-v1.0.1.aar) | Bug fixes, improved custom server handling                      | -->
 
 > 🆕 New versions will be updated here along with changelogs.
