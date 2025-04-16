@@ -101,7 +101,7 @@ Since this library is **not published on Maven or Gradle repositories**, follow 
 
 ### 1. Download AAR
 
-👉 [**Click here to download JUpdater.aar**](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/jupdater-V1.0.0-release.aar)
+👉 [**Click here to download JUpdater.aar**](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.1/jupdater-V1.0.1-release.aar)
 
 ### 2. Create `libs` folder
 
@@ -319,14 +319,11 @@ By default, logs are suppressed in production mode.
 
 ## 🧠 Version History
 
-| Version     | Description                                                |
-| ----------- | ---------------------------------------------------------- |
-| [v1.0.1](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.1/jupdater-V1.0.1-release.aar) | Changes features 
-- Server Url is required either your or our API 
-- Threshold Value less then 1 will not be accepted 
-- Minor Bugs fixes       |
-| [v1.0.0](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.0/jupdater-V1.0.0-release.aar) | Initial release with base features                              |
-<!-- | [v1.0.1](https://yourwebsite.com/downloads/jupdater-v1.0.1.aar) | Bug fixes, improved custom server handling                      | -->
+| Version | Description |
+|--------|-------------|
+| [v1.0.1](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.1/jupdater-V1.0.1-release.aar) | **Updates:**<br>• Server URL is now required (your API or ours)<br>• Threshold values less than 1 are no longer accepted<br>• Minor bug fixes |
+| [v1.0.0](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.0/jupdater-V1.0.0-release.aar) | **Initial release:**<br>• Base functionality implemented |
+
 
 > 🆕 New versions will be updated here along with changelogs.
 
