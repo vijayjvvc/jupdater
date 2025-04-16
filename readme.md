@@ -179,22 +179,23 @@ dependencies {
 ### Kotlin (Recommended)
 
 ```kotlin
-val config = JUpdaterConfig("https://your-latest-apk-url.com")
-config.enableForceUpdate(5)
-config.isDebug = true  // Optional
+val config = JUpdaterConfig("https://your-latest-apk-url.com","https://yourserver.com/check")
+config.enableForceUpdate(5)  // Optional
+config.isDebug = true        // Optional
 JUpdater.getInstance().init(applicationContext, config)
 ```
 
 ### Java
 
 ```java
-JUpdaterConfig config = new JUpdaterConfig("https://your-latest-apk-url.com");
-config.enableForceUpdate(5);
-config.setDebug(true);  // Optional
+JUpdaterConfig config = new JUpdaterConfig("https://your-latest-apk-url.com","https://yourserver.com/check");
+config.enableForceUpdate(5);  // Optional
+config.setDebug(true);        // Optional
 JUpdater.getInstance().init(getApplicationContext(), config);
 ```
 
 > ✅ Replace the URL with the **direct APK download link** of your latest version.
+> ✅ Replace the Server URL with the **Jupdater API link** provided by us.
 
 ---
 
@@ -240,6 +241,7 @@ It must support GET requests with query parameters:
 ## 📊 Threshold Behavior Explained
 
 ### 🔸 Threshold Value (Default: 5)
+#### 🔸 Note :- Value less then 1 will not be accepted
 
 - Defines the version gap between current and available version.
 - If the gap is **within** threshold → show **BottomSheetDialog** (optional update).
@@ -319,7 +321,11 @@ By default, logs are suppressed in production mode.
 
 | Version     | Description                                                |
 | ----------- | ---------------------------------------------------------- |
-| [v1.0.0](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/jupdater-V1.0.0-release.aar) | Initial release with base features                              |
+| [v1.0.1](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.1/jupdater-V1.0.1-release.aar) | Changes features 
+- Server Url is required either your or our API 
+- Threshold Value less then 1 will not be accepted 
+- Minor Bugs fixes       |
+| [v1.0.0](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.0/jupdater-V1.0.0-release.aar) | Initial release with base features                              |
 <!-- | [v1.0.1](https://yourwebsite.com/downloads/jupdater-v1.0.1.aar) | Bug fixes, improved custom server handling                      | -->
 
 > 🆕 New versions will be updated here along with changelogs.
