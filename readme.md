@@ -321,8 +321,8 @@ By default, logs are suppressed in production mode.
 
 | Version | Description |
 |--------|-------------|
-| [v1.0.1](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.1/jupdater-V1.0.1-release.aar) | **Updates:**<br>• Server URL is now required (your API or ours)<br>• Threshold values less than 1 are no longer accepted<br>• Minor bug fixes |
-| [v1.0.0](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.0/jupdater-V1.0.0-release.aar) | **Initial release:**<br>• Base functionality implemented |
+| [v1.0.1](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.1/jupdater-V1.0.1-release.aar) | **Updates:**<br>• Server URL is now required (your API or ours)<br>• Threshold values less than 1 are no longer accepted<br>• Minor bug fixes                 |
+| [v1.0.0](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.0/jupdater-V1.0.0-release.aar) | **Initial release:**<br>• Base functionality implemented                |
 
 
 > 🆕 New versions will be updated here along with changelogs.
