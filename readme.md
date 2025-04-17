@@ -101,7 +101,7 @@ Since this library is **not published on Maven or Gradle repositories**, follow 
 
 ### 1. Download AAR
 
-👉 [**Click here to download JUpdater.aar**](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.1/jupdater-V1.0.1-release.aar)
+👉 [**Click here to download JUpdater.aar**](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.2/jupdater-V1.0.2-release.aar)
 
 ### 2. Create `libs` folder
 
@@ -317,10 +317,35 @@ By default, logs are suppressed in production mode.
 
 ---
 
+## 🛠️ Helper Function Usage
+
+
+### Kotlin (Recommended)
+
+```kotlin
+JUpdater.getInstance().launchUrlInBrowser(requireContext(), "https://your-website.com/privacy-policy.html")
+```
+
+### Java
+
+```java
+JUpdater.getInstance().launchUrlInBrowser(requireContext(), "https://your-website.com/privacy-policy.html")
+```
+
+>✅ Replace the URL with the link to your privacy policy, terms and conditions, or any other page you want to open in the browser.
+
+## 🚀 Why Use This Helper Function
+- **Quick Integration:** Just call the helper function wherever you need to open an external URL.
+- **No Library Initialization:** The function is independent of the core library, so you don't need to initialize the main library for it to work.
+- **Cleaner Code:** You don't have to manually write browser-opening code each time.
+
+---
+
 ## 🧠 Version History
 
 | Version | Description |
 |--------|-------------|
+| [v1.0.2](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.2/jupdater-V1.0.2-release.aar) | **Updates:**<br>• Open link helper added.<br>• Minor bug fixes                 |
 | [v1.0.1](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.1/jupdater-V1.0.1-release.aar) | **Updates:**<br>• Server URL is now required (your API or ours)<br>• Threshold values less than 1 are no longer accepted<br>• Minor bug fixes                 |
 | [v1.0.0](https://github.com/vijayjvvc/jupdater/raw/refs/heads/main/v1.0.0/jupdater-V1.0.0-release.aar) | **Initial release:**<br>• Base functionality implemented                |
 
