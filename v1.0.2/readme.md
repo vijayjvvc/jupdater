@@ -23,7 +23,7 @@ Place the downloaded `.aar` file inside your app module:
 YourProject/
 └── app/
     └── libs/
-        └── jupdater-v1.0.1.aar
+        └── jupdater-vX.X.X.aar
 ```
 
 > 📁 If you have multiple `.aar` or `.jar` files, use the `fileTree` method instead:
@@ -73,14 +73,14 @@ dependencyResolutionManagement {
 #### Groovy:
 ```groovy
 dependencies {
-      implementation files('libs/jupdater-v1.0.1.aar')
+      implementation files('libs/jupdater-vXX.YY.ZZ.aar')
 }
 ```
 
 #### Kotlin:
 ```kotlin
 dependencies {
-    implementation(files("libs/jupdater-v1.0.1.aar"))
+    implementation(files("libs/jupdater-vXX.YY.ZZ.aar"))
 }
 ```
 

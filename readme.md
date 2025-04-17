@@ -161,14 +161,14 @@ dependencyResolutionManagement {
 #### Groovy:
 ```groovy
 dependencies {
-      implementation files('libs/jupdater-v1.0.1.aar')
+      implementation files('libs/jupdater-vXX.YY.ZZ.aar')
 }
 ```
 
 #### Kotlin:
 ```kotlin
 dependencies {
-    implementation(files("libs/jupdater-v1.0.1.aar"))
+    implementation(files("libs/jupdater-vXX.YY.ZZ.aar"))
 }
 ```
 
